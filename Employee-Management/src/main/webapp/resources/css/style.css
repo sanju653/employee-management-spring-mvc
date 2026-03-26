@@ -1,0 +1,246 @@
+/* ===== Page Background ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Center Container ===== */
+form {
+    background: #ffffff;
+    width: 420px;
+    margin: 60px auto;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Headings ===== */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* ===== Labels (if you use) ===== */
+label {
+    font-weight: 600;
+    color: #444;
+    display: block;
+    margin-top: 12px;
+}
+
+/* ===== Inputs & Select ===== */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+/* ===== Submit Button ===== */
+input[type="submit"] {
+    width: 100%;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 18px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+    background: #357abd;
+}
+
+/* ===== Error Messages ===== */
+.error {
+    color: #e74c3c;
+    font-size: 13px;
+    margin-top: 4px;
+    display: block;
+}
+
+/* ===== Success / Alert box ===== */
+.success {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* ===== Spacing ===== */
+br {
+    line-height: 10px;
+}
+/* ===== Page Title ===== */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 40px;
+    font-size: 34px;
+}
+
+/* ===== Button Container ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f9;
+    text-align: center;
+}
+
+/* ===== Links as Buttons ===== */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background: #4a90e2;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 0.3s;
+    min-width: 180px;
+}
+
+/* Hover Effect */
+a:hover {
+    background: #357abd;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* Different colors for variety */
+a:nth-of-type(1) { background:  #3498db; }  /* Add Employee */
+a:nth-of-type(2) { background: #3498db; }  /* View Employees */
+a:nth-of-type(3) { background:  #3498db; }  /* Add Dept */
+a:nth-of-type(4) { background:  #3498db; }  /* View Dept */
+
+a:nth-of-type(1):hover { background:  #2c3e50; }
+a:nth-of-type(2):hover { background:  #2c3e50; }
+a:nth-of-type(3):hover { background:  #2c3e50; }
+a:nth-of-type(4):hover { background:  #2c3e50; }
+
+
+
+/* ===== Page Layout ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ===== Center Title ===== */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* ===== Center Container ===== */
+.table-container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+/* ===== Table Styling ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+th {
+    background: #4a90e2;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+}
+
+/* Cells */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Row hover */
+tr:hover {
+    background: #f1f7ff;
+}
+
+/* ===== Buttons ===== */
+a.button {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 2px;
+}
+
+/* Edit Button */
+a.edit {
+    background: #27ae60;
+}
+
+a.edit:hover {
+    background: #1e8449;
+}
+
+/* Delete Button */
+a.delete {
+    background: #e74c3c;
+}
+
+a.delete:hover {
+    background: #c0392b;
+}
+
+/* ===== Add Button ===== */
+.add-btn {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background: #3498db;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background: #2e86c1;
+    transform: translateY(-2px);
+}
+
+/* ===== Center Add Button ===== */
+.bottom {
+    text-align: center;
+    margin-top: 20px;
+}
